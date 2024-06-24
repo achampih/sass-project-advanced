@@ -1,0 +1,14 @@
+@mixin btn($color: black, $bg-color: green) {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 1rem 1.5rem;
+  color: $color;
+  background-color: $bg-color;
+  margin: 1rem 0;
+
+  &:hover,
+  &:focus {
+    background-color: lightgreen;
+  }
+}

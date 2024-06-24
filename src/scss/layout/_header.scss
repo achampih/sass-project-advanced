@@ -1,0 +1,28 @@
+header {
+  background-color: #aaa;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+
+  /*  */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 15px;
+
+  .logo {
+    height: 100px;
+    flex: 1;
+  }
+  nav {
+    flex: 2;
+  }
+  margin-bottom: 100px;
+  p {
+    margin: 10px 0 0;
+  }
+}

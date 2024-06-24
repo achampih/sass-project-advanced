@@ -1,0 +1,21 @@
+/* for all imports */
+@use "./abstracts/g-abstracts";
+@use "./base/g-base";
+@use "./components/g-components";
+@use "./layout/g-layout";
+
+.main-contain {
+  display: flex;
+  flex-direction: row;
+}
+main {
+  flex: 3;
+  padding-top: 150px;
+}
+
+section {
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}

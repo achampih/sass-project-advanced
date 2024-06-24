@@ -1,0 +1,7 @@
+/* $socials: facebook twitter youtube;
+@each $item in $socials {
+  .#{$item}-img {
+    background: url(../images/image-#{$item}.svg);
+  }
+}
+ */

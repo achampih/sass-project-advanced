@@ -1,0 +1,12 @@
+@use "../abstracts/variables" as *;
+@use "../base/fonts" as *;
+
+body {
+  font-family: $font-type;
+  font-size: $font-size;
+  font-style: $font-style;
+  margin: 0;
+  padding: 0;
+  background-color: $bg-color;
+  color: $text-color;
+}
